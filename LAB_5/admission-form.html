@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Student Admission Form</title>
+    <link rel="stylesheet" href="admission-form.css">
+   
+</head>
+<body>
+    <div class="container">
+        <img src="https://imgs.search.brave.com/mi0nHFEGW_SzM9GEvGUHUwKfLbuD_DXNnyMolDnXJDw/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNDk1NzYxNzRh/MjQwYTM1MzA1YThj/MmQ3NGY1NzFjZjg2/M2IwMmI3ZmFlYzM4/YmFmNTA5MzY1ODg2/NDkyZGU4NC9nY2V0/a2FzaG1pci5hYy5p/bi8" alt="College logo">
+        <h2>Admission Form</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="course">Select Course</label>
+            <select id="course" name="course">
+                <option >B.Tech</option>
+                <option>MBA</option>
+                <option>B.SC</option>
+                <option>Other</option>
+            </select><br>
+            <label >
+                <input type="checkbox" name="agree" required>I agree to the terms and conditions    
+            </label><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
